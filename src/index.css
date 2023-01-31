@@ -23,14 +23,11 @@
   text-transform: capitalize;
 }
 
-/* .gradient-border {
-  padding: 9px;
-  --white: linear-gradient(white, white);
-  --gradient: linear-gradient(to right, #31cccc, #3b86de);
-  border: solid 0.25rem transparent !important;
-  border-radius: 0.5rem;
-  background: var(--white) padding-box, var(--gradient) border-box;
-} */
+.cardImgg{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 3/2;
+}
 
 .menu_active {
   font-weight: bold;

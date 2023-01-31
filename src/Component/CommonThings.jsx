@@ -1,8 +1,7 @@
 import React from 'react'
-import { NavLink, useNavigate } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 function CommonThings(props) {
-    const navigate = useNavigate();
     return (
         <>
             <section id='header' className='d-flex align-content-center'>
