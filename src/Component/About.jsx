@@ -1,8 +1,12 @@
 import React from 'react'
+import CommonThings from './CommonThings'
+import AboutImage from '../Assets/About.svg'
 
 function About() {
   return (
-    <div>Welcome To About Page</div>
+    <>
+      <CommonThings name='Welcome to  about page' imgsrc={AboutImage} visit='/contact' btnName='Contact Now' />
+    </>
   )
 }
 
